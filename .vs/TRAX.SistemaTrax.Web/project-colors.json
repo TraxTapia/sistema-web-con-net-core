@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b35180fe-d492-40f3-9ff0-894bdf0d6298": {
+      "ProjectGuid": "b35180fe-d492-40f3-9ff0-894bdf0d6298",
+      "DisplayName": "TRAX.SistemaTrax.Web",
+      "ColorIndex": 0
+    },
+    "663899f2-61b8-4fc2-bab5-cd44f5c1c490": {
+      "ProjectGuid": "663899f2-61b8-4fc2-bab5-cd44f5c1c490",
+      "DisplayName": "Trax.Servicios.ClienteApi",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

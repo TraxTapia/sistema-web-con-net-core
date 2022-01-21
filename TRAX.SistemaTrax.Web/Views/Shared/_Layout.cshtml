@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRAX|SISTEMA WEB</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="stylesheet" href="~/lib/dataTables/datatables.min.css" />
+    <link rel="stylesheet" href="~/lib/footable/css/footable.core.css" />
+    <link rel="stylesheet" href="~/lib/font-awesome/css/font-awesome.css" />
+
+
+</head>
+<body>
+
+    <partial name="_Preloader">
+        <div class="container">
+            @*<main role="main" class="pb-3">*@
+            <partial name="_Nav">
+                @RenderBody()
+                <partial name="_Footer">
+                    @*</main>*@
+        </div>
+
+
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/lib/dataTables/datatables.min.js"></script>
+        <script src="~/lib/dataTables/dataTables.bootstrap4.min.js"></script>
+        @*<script src="~/js/jquery-3.3.1.js"></script>*@
+        <script src="~/js/sweetalert.min.js"></script>
+        <script src="~/js/jquery.blockUI.js"></script>
+        <script src="~/lib/footable/dist/footable.all.min.js"></script>
+        <script src="~/lib/moment/moment.js"></script>
+        <script src="~/js/Preloader/Index.js"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

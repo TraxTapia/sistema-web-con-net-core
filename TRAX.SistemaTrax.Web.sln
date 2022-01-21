@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TRAX.SistemaTrax.Web", "TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web.csproj", "{B35180FE-D492-40F3-9FF0-894BDF0D6298}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trax.Servicios.ClienteApi", "Trax.Servicios.ClienteApi\Trax.Servicios.ClienteApi.csproj", "{663899F2-61B8-4FC2-BAB5-CD44F5C1C490}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B35180FE-D492-40F3-9FF0-894BDF0D6298}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B35180FE-D492-40F3-9FF0-894BDF0D6298}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B35180FE-D492-40F3-9FF0-894BDF0D6298}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B35180FE-D492-40F3-9FF0-894BDF0D6298}.Release|Any CPU.Build.0 = Release|Any CPU
+		{663899F2-61B8-4FC2-BAB5-CD44F5C1C490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{663899F2-61B8-4FC2-BAB5-CD44F5C1C490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{663899F2-61B8-4FC2-BAB5-CD44F5C1C490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{663899F2-61B8-4FC2-BAB5-CD44F5C1C490}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {054B2ABE-390C-4F07-8FF8-BC4D7B01E5C1}
+	EndGlobalSection
+EndGlobal
