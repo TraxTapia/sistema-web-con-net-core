@@ -1,0 +1,26 @@
+﻿<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Font online-->
+    <title>TRAX|SISTEMA WEB</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--        Animate.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+    <link rel="stylesheet" href="~/css/login.css" />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    @RenderBody()
+    <partial name="_Footer" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="~/js/Login/Login.js"></script>
+    <!-- Google JQuery CDN -->
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+
+
+
+</html>

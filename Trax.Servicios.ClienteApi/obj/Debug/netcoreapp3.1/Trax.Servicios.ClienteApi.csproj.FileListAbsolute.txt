@@ -1,0 +1,10 @@
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\bin\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.deps.json
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\bin\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\bin\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.pdb
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.csproj.AssemblyReference.cache
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.AssemblyInfoInputs.cache
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.AssemblyInfo.cs
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.csproj.CoreCompileInputs.cache
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Trax.Servicios.ClienteApi\obj\Debug\netcoreapp3.1\Trax.Servicios.ClienteApi.pdb

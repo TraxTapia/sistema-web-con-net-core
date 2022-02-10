@@ -1,12 +1,140 @@
-﻿<h2>usuarios</h2>
+﻿@{
+    string urlNuevoUsuario = Url.Action("AgregarUsuarios", "Usuarios");
+
+}
 
 <div class="container">
+    <h2 class="text-center">Administrar usuarios</h2>
     <div class="row">
         <div class="col-md-12">
-           <table id="example" class="display" width="100%"></table>
+            <button class="btn  btn-primary" onclick="OpenModalNuevo(this);">Nuevo registro</button>
+
+        </div>
+    </div>
+    <div class="modal fade bd-example-modal-lg" tabindex="-1" id="ModalNuevoRegistro" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title">Nuevo Usuario</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form id="frmNuevoUsuario">
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Nombre: </label>
+                                <div class="col-lg-6">
+                                    <input type="text" id="txtnombre" placeholder="Nombre" class="form-control">
+                                    <label for="txtnombre" generated="true" class="error alert-danger"></label>
+                                    <span class="badge badge-danger col-lg-6" id='validateNombre'></span>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Apellido paterno: </label>
+                                <div class="col-lg-6">
+                                    <input type="text" id="txtapellidoPaterno" placeholder="Apellido paterno"  class="form-control">
+                                    <label for="txtapellidoPaterno" generated="true" class="error alert-danger"></label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Apellido Materno: </label>
+                                <div class="col-lg-6">
+                                    <input type="text" id="txtapellidoMaterno" placeholder="Apellido Materno" class="form-control">
+                                    <label for="txtapellidoMaterno" generated="true" class="error alert-danger"></label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Correo electrónico:</label>
+                                <div class="col-lg-6">
+                                    <input type="text" id="txtcorreo" placeholder="Correo electrónico" onkeyup="validarEmail(this)" class="form-control">
+                                    <label for="txtcorreo" generated="true" class="error alert-danger"></label>
+                                    <span class="badge badge-danger col-lg-6" id='resultado'></span>
+                                </div>
+
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Contraseña</label>
+                                <div class="col-lg-6">
+                                    <input type="password" id="txtpassword" placeholder="Contraseña" class="form-control">
+                                    <label for="txtpassword" generated="true" class="error alert-danger"></label>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-lg-2 col-form-label">Rol</label>
+                                <div class="col-lg-6">
+                                    <input type="number" id="txtrol" placeholder="Rol" class="form-control">
+                                    <label for="txtrol" generated="true" class="error alert-danger"></label>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button tabindex="23" onclick="$('#frmNuevoUsuario').submit()" id="btnGuardarRegistro" type="button" class="btn btn-sm btn-success animated fadeInUp">Guardar</button>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--MODAL RECUPERAR CONTRASEÑA-->
+    <div class="wrapper wrapper-content  animated fadeInRight">
+        <div class="modal inmodal" id="ModalRecuperarPassword" tabindex="-1" role="dialog">
+            <div class="modal-dialog">
+                <div class="modal-content animated bounceInRight">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title " style="color:black">¿Se te olvido tu contraseña?</h4>
+                    </div>
+                    <div class="modal-body" id="modalForgotPassword">
+                        <div class="passwordBox animated fadeInDown">
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="ibox-content">
+                                        <h2 class="font-bold">¿Se te olvidó tu contraseña?</h2>
+                                        <p>
+                                            Ingrese su n&uacute;mero de proveedor y se le enviar&aacute;  un correo electr&oacute;nico donde podra recuperar su contraseña.
+                                        </p>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <form id="frmRecuperarPassword" class="m-t">
+                                                    <div class="form-group">
+                                                        <input type="text" onkeypress="return valideKey(event);" class="form-control" id="nroProveedorRecuperar" placeholder="Número proveedor">
+                                                    </div>
+
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        @*<button onclick="forgotPasswordUrl('@urlForgotPassword');" class="btn btn-success">Enviar</button>*@
+                        <button type="button" class="btn btn-warning b" data-dismiss="modal">Cancelar</button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
+
+
+
+
+
+
+@*<div class="container">
+    <div class="row">
+    <div class="col-md-12">
+    <table id="example" class="display" width="100%"></table>
+    </div>
+    </div>
+    </div>*@
 
 @section scripts{
 <script src="~/js/Usuarios/Index.js"></script>

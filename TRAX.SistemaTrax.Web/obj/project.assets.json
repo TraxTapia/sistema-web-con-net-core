@@ -1594,6 +1594,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.ReaderWriter.dll": {}
         }
+      },
+      "Trax.Servicios.ClienteApi/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "bin/placeholder/Trax.Servicios.ClienteApi.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Trax.Servicios.ClienteApi.dll": {}
+        }
       }
     }
   },
@@ -5413,6 +5426,11 @@
         "system.xml.readerwriter.4.0.11.nupkg.sha512",
         "system.xml.readerwriter.nuspec"
       ]
+    },
+    "Trax.Servicios.ClienteApi/1.0.0": {
+      "type": "project",
+      "path": "../Trax.Servicios.ClienteApi/Trax.Servicios.ClienteApi.csproj",
+      "msbuildProject": "../Trax.Servicios.ClienteApi/Trax.Servicios.ClienteApi.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -5422,7 +5440,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.0",
       "Microsoft.Extensions.Logging.Debug >= 6.0.0",
       "Newtonsoft.Json >= 13.0.1",
-      "System.IO.Packaging >= 6.0.0"
+      "System.IO.Packaging >= 6.0.0",
+      "Trax.Servicios.ClienteApi >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -5461,7 +5480,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj": {
+              "projectPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

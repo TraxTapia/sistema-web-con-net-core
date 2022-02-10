@@ -370,3 +370,8 @@ C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\D
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\TRAX.SistemaTrax.Web.pdb
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\TRAX.SistemaTrax.Web.genruntimeconfig.cache
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\Razor\Views\Usuarios\Index.cshtml.g.cs
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\Razor\Views\Shared\_Login.cshtml.g.cs
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Models.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Trax.Servicios.ClienteApi.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Trax.Servicios.ClienteApi.pdb
