@@ -8,7 +8,23 @@
     <div class="row">
         <div class="col-md-12">
             <button class="btn  btn-primary" onclick="OpenModalNuevo(this);">Nuevo registro</button>
+        </div>
+    </div>
+    
+    <div class="row p-3">
+        <div class="col-md-12">
+            <table id="tblUsers" class="display table-hover " width="100%">
+               <thead>
+                        <tr>
+                            <th style="font-size:small">Id</th>
+                            <th style="font-size:small">Nombre</th>
+                            <th style="font-size:small">Correo</th>
+                            <th style="font-size:small">Tipo de rol</th>
+                            <th style="font-size:small">Activo</th>
 
+                        </tr>
+                    </thead>
+            </table>
         </div>
     </div>
     <div class="modal fade bd-example-modal-lg" tabindex="-1" id="ModalNuevoRegistro" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
@@ -34,7 +50,7 @@
                             <div class="form-group row">
                                 <label class="col-lg-2 col-form-label">Apellido paterno: </label>
                                 <div class="col-lg-6">
-                                    <input type="text" id="txtapellidoPaterno" placeholder="Apellido paterno"  class="form-control">
+                                    <input type="text" id="txtapellidoPaterno" placeholder="Apellido paterno" class="form-control">
                                     <label for="txtapellidoPaterno" generated="true" class="error alert-danger"></label>
                                 </div>
                             </div>

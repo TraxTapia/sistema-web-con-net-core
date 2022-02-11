@@ -10,7 +10,12 @@
       "ProjectGuid": "663899f2-61b8-4fc2-bab5-cd44f5c1c490",
       "DisplayName": "Trax.Servicios.ClienteApi",
       "ColorIndex": 1
+    },
+    "ddfb8113-1ced-4d38-9cfb-6ed4082b298e": {
+      "ProjectGuid": "ddfb8113-1ced-4d38-9cfb-6ed4082b298e",
+      "DisplayName": "Api.Service.ClienteRest",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

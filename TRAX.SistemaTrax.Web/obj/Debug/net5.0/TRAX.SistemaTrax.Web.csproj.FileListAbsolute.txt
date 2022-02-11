@@ -375,3 +375,4 @@ C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\D
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Models.dll
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Trax.Servicios.ClienteApi.dll
 C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\bin\Debug\net5.0\Trax.Servicios.ClienteApi.pdb
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\TRAX.SistemaTrax.Web\obj\Debug\net5.0\Razor\Views\Usuarios\_PanelResult.cshtml.g.cs

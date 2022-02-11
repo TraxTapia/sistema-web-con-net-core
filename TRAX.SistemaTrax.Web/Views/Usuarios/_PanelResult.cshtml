@@ -1,0 +1,58 @@
+﻿@using Models.Models.Response
+@using Trax.Servicios.ClienteApi.CoreClienteApi
+
+@model RespuestaData<List<ListaUsuariosResponse>>
+<div class="row">
+            <div class="col-xl-12">
+
+                <table class="table table-no-border table-hover animated fadeInUp" id="tableDetalle" style="background-color:#f5f5f5; font-size:small">
+                    <thead>
+                        <tr>
+                            <th style="font-size:small">Id</th>
+                            <th style="font-size:small">Nombre</th>
+                            <th style="font-size:small">Correo</th>
+                            <th style="font-size:small">Tipo de rol:</th>
+                            <th style="font-size:small">Activo</th>
+                            @*<th style="font-size:small">Limite Inicial</th>
+                            <th style="font-size:small">Limite Final</th>
+                            <th style="font-size:small">Copago</th>
+                            <th style="font-size:small">Especificaciones</th>
+                            <th style="font-size:small">Tipo de Gasto en:</th>
+                            <th id="thEliminar">Eliminar</th>
+                            <th style="font-size:small" id="thEditar">Editar</th>*@
+
+                        </tr>
+                    </thead>
+
+                    <tbody id="tbodydetalle">
+                        @foreach (var oElemento in Model.Datos)
+
+                        {
+                            <tr id="trTablaDetalle">
+                                <td >@oElemento.Id</td>
+                                <td >@oElemento.NombreCompleto</td>
+                                <td >@oElemento.Correo</td>
+                                <td>@oElemento.DescripcionRol</td>
+                                <td>@oElemento.Activo</td>
+                              
+                                @*<td>@oElemento.Limite_Inicial.ToString("N2")</td>
+                                <td>@oElemento.Limite_Final.ToString("N2")</td>
+                                <td>@oElemento.Copago.ToString("N2")</td>
+                                <td>@oElemento.Especificaciones</td>
+                                <td style="display:none">@oElemento.IdTipoGasto</td>
+                                <td>@oElemento.DescripcionGasto</td>*@
+                                @*<td style="width:10%;">@oElemento.Fecha_Creacion.ToShortDateString()</td>*@
+
+                             @*   <td class="ColumnaBorrar">
+                                    <a onclick="deleteFichaById(this)" id="btnEliminar" class="btn-circle btn-circle-raised btn-circle-danger"><i class="glyphicon glyphicon-remove white"></i></a>
+                                </td>
+                                <td class="ColumnaEditar">
+                                    <a onclick="openEditModal(this)" id="btnEditar" class="btn-circle btn-circle-raised btn-circle-white btn-circle-primary"><i class="glyphicon glyphicon-pencil"></i></a>
+                                </td>*@
+                            </tr>
+                        }
+
+                    </tbody>
+                </table>
+            </div>
+        </div>
