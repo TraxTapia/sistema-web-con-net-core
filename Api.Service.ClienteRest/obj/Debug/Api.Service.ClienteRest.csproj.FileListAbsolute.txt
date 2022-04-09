@@ -1,0 +1,6 @@
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\bin\Debug\Api.Service.ClienteRest.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\bin\Debug\Api.Service.ClienteRest.pdb
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\obj\Debug\Api.Service.ClienteRest.csproj.AssemblyReference.cache
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\obj\Debug\Api.Service.ClienteRest.csproj.CoreCompileInputs.cache
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\obj\Debug\Api.Service.ClienteRest.dll
+C:\Users\ivan.tapia\source\repos\TRAX.SistemaTrax.Web\Api.Service.ClienteRest\obj\Debug\Api.Service.ClienteRest.pdb
