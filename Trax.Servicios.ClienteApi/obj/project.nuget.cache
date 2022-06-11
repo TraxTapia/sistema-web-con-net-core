@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hbYxf+6ctH3iF3cvieEE9op2NYSlPFPBSXf848qGbimKzAE6srd+MrZNVMFTqwPFwi/vQpaqsySJRWYvYQGQZg==",
+  "dgSpecHash": "gWiK+7whFkr7e9rAsrmnWzEYhW+WWW1MyxR/MPBpSJG59bi2oWGk0UbywaHkq7hPQK0B827FLwjgFmJ7oo7IfQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
+  "projectFilePath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivan.tapia\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],

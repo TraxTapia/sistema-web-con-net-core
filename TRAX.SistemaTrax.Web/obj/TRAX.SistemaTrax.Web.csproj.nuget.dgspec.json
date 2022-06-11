@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj": {}
+    "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj": {
+    "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
+        "projectUniqueName": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
         "projectName": "Trax.Servicios.ClienteApi",
-        "projectPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
+        "projectPath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj",
         "packagesPath": "C:\\Users\\ivan.tapia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\obj\\",
+        "outputPath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -67,18 +67,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj": {
+    "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
+        "projectUniqueName": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
         "projectName": "TRAX.SistemaTrax.Web",
-        "projectPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
+        "projectPath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
         "packagesPath": "C:\\Users\\ivan.tapia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\obj\\",
+        "outputPath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -102,8 +102,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj": {
-                "projectPath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj"
+              "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj": {
+                "projectPath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\Trax.Servicios.ClienteApi\\Trax.Servicios.ClienteApi.csproj"
               }
             }
           }
@@ -163,7 +163,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.105\\RuntimeIdentifierGraph.json"
         }
       }
     }

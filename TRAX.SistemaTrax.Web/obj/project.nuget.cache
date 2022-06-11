@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L3l6QY2BmdA6yAxgE0VyWlw/Pj2h4v/xhZvnV0lW+fptIekDCQ9b24zFrF1FsZWV7H9ghVLvvm0Q6YYsHdnf0w==",
+  "dgSpecHash": "cCjlUdbK5ISpXkVENHU+5ro/XasJN2TIVnodrPr8bhC17ihU2Ub3rME9/XeCji68+/mBhGgbF8kqCH9q6y3ssQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ivan.tapia\\source\\repos\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
+  "projectFilePath": "C:\\Users\\ivan.tapia\\source\\Ivan\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web\\TRAX.SistemaTrax.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ivan.tapia\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ivan.tapia\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\5.0.0\\microsoft.aspnetcore.mvc.razor.extensions.5.0.0.nupkg.sha512",
